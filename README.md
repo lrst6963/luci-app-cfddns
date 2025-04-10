@@ -1,5 +1,5 @@
 # luci-app-cfddns
-## 使用cloudflare API 当DDNS服务
+## 使用 Cloudflare API 当DDNS服务
 #### 使用方式：
 
 ```bash
