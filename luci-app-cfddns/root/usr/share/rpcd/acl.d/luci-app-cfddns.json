@@ -1,0 +1,20 @@
+{
+	"luci-app-cfddns": {
+		"description": "Grant access to cfddns configuration",
+		"read": {
+			"file": {
+				"/var/log/cfddns.log": [ "read" ],
+				"/usr/bin/cfddns-updater": [ "exec" ],
+			},
+			"ubus": {
+				"service": [ "list" ],
+				"service": [ "start" ],
+				"service": [ "stop" ]
+			},
+			"uci": [ "cfddns" ]
+		},
+		"write": {
+			"uci": [ "cfddns" ]
+		}
+	}
+}

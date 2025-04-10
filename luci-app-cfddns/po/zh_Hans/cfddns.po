@@ -1,0 +1,157 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: LuCI App - Cloudflare DNS Updater\n"
+"POT-Creation-Date: 2025-04-01 15:00+0800\n"
+"PO-Revision-Date: 2025-04-01 15:30+0800\n"
+"Last-Translator: LRSTS <lrsts@qq.com>\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+
+msgid "Enable Automatic Updates"
+msgstr "启用自动更新"
+
+msgid "Cloudflare Email"
+msgstr "Cloudflare 邮箱"
+
+msgid "API Key"
+msgstr "API 密钥"
+
+msgid "Zone Name (Root Domain)"
+msgstr "主域名"
+
+msgid "Record Name (Subdomain)"
+msgstr "子域名"
+
+msgid "Record Type"
+msgstr "记录类型"
+
+msgid "A (IPv4)"
+msgstr "A记录 (IPv4)"
+
+msgid "AAAA (IPv6)"
+msgstr "AAAA记录 (IPv6)"
+
+msgid "TTL (Time-To-Live)(second)"
+msgstr "TTL生存时间(秒)"
+
+msgid "Update Interval (minutes)"
+msgstr "更新间隔(分钟)"
+
+msgid "Log File Path"
+msgstr "日志文件路径"
+
+msgid "Log Level"
+msgstr "日志级别"
+
+msgid "Debug"
+msgstr "调试"
+
+msgid "Info"
+msgstr "信息"
+
+msgid "Warning"
+msgstr "警告"
+
+msgid "Error"
+msgstr "错误"
+
+msgid "Force Update Now"
+msgstr "立即强制更新"
+
+msgid "Collecting data..."
+msgstr "正在收集数据..."
+
+msgid "RUNNING"
+msgstr "运行中"
+
+msgid "NOT RUNNING"
+msgstr "未运行"
+
+msgid "Open Web Interface"
+msgstr "打开网页界面"
+
+msgid "Services"
+msgstr "服务"
+
+msgid "Cloudflare DNS"
+msgstr "Cloudflare DNS"
+
+msgid "Configuration"
+msgstr "配置"
+
+msgid "Status"
+msgstr "状态"
+
+msgid "View Log"
+msgstr "查看日志"
+
+msgid "Auto-refreshing every %d seconds"
+msgstr "自动刷新间隔：%d 秒"
+
+msgid "Loading log data..."
+msgstr "正在加载日志数据..."
+
+msgid "Log file not found at: %s"
+msgstr "日志文件不存在：%s"
+
+msgid "Are you sure you want to clear the log file?"
+msgstr "是否清空日志文件？"
+
+msgid "Error reading log: %s"
+msgstr "读取日志失败：%s"
+
+msgid "Showing last %d of %d lines"
+msgstr "显示最近 %d 条 / 共 %d 条日志"
+
+msgid "Manual Refresh"
+msgstr "手动刷新"
+
+msgid "Clear Log"
+msgstr "清空日志"
+
+msgid "Automatically update your Cloudflare DDNS records"
+msgstr "自动更新 Cloudflare DDNS 记录"
+
+msgid "Last update: "
+msgstr "最后更新："
+
+msgid "Can be found in your Cloudflare profile settings"
+msgstr "可在 Cloudflare 个人资料设置中找到"
+
+msgid "Requires working IPv6 connectivity"
+msgstr "需要可用的 IPv6 连接"
+
+msgid "Disable log color output"
+msgstr "禁用日志彩色输出"
+
+msgid "Disable log timestamp"
+msgstr "禁用日志时间戳"
+
+msgid "IP Source Method"
+msgstr "IP 获取方式"
+
+msgid "Get from network (external service)"
+msgstr "从网络获取(外部服务)"
+
+msgid "Get from local interface"
+msgstr "从本地接口获取"
+
+msgid "Choose how to obtain the IP address"
+msgstr "选择如何获取 IP 地址"
+
+msgid "IP Detection Service URL"
+msgstr "IP 检测服务 URL"
+
+msgid "Only used when IP source is set to network"
+msgstr "仅在 IP 获取方式设置为网络时使用"
+
+msgid "Network Interface"
+msgstr "网络接口"
+
+msgid "Only used when IP source is set to interface"
+msgstr "仅在 IP 获取方式设置为接口时使用"
